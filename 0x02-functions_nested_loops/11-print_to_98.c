@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 - a function that prints all natural numbers from n to 98
- * user input's number prints to 98, regardless < 98 or > 98
- * number input
- * Return: Always 0 (Success)
+ * print_to_98 - Prints all natural numbers from input to 98,
+ *               in order separated by a comma followed by a space.
+ * @n: The number to begin counting at.
  */
 void print_to_98(int n)
 {
